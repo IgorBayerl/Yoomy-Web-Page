@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
-import Footer from '../components/Footer'
-
+import Footer from '../components/footer'
+import Image from 'next/image';
 
 function Home(){
     return (
         <div>
-            <Head title='Yoomy'></Head>
+            <Head title='Yoomy' ></Head>
             <Header/>
             <body>
                 <FirstPart/>

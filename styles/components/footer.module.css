@@ -1,0 +1,28 @@
+
+.coluna li{
+    list-style: none;
+}
+
+.backgroundFooter {
+    background-color: #eeeeee;
+    height: 350px
+}
+
+
+.lista {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between
+}
+
+
+.coluna {
+    /* background-color: blue; */
+    width: 20vw;
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+    /* align-items:flex-end */
+}
