@@ -1,0 +1,36 @@
+
+.backgroundFooter {
+    background-color: #FBF8F8;
+    height: 300px
+}
+
+
+.lista {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+    /* align-items:flex-end */
+}
+
+.coluna {
+    /* background-color: blue; */
+    width: 20vw;
+}
+
+.coluna h3{
+    color: #000;
+    font-size: 36;
+    font-weight: bold;
+}
+
+.coluna li{
+    list-style: none;
+    color: #ACACAC;
+    font-size: 26;
+    /* font-weight:700; */
+}
