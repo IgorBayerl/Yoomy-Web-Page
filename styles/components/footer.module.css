@@ -1,11 +1,9 @@
 
-.coluna li{
-    list-style: none;
-}
+
 
 .backgroundFooter {
-    background-color: #eeeeee;
-    height: 350px
+    background-color: #FBF8F8;
+    height: 300px
 }
 
 
@@ -16,13 +14,27 @@
 }
 
 
-.coluna {
-    /* background-color: blue; */
-    width: 20vw;
-}
 
 .footer{
     display:flex;
     justify-content:center;
     /* align-items:flex-end */
+}
+
+.coluna {
+    /* background-color: blue; */
+    width: 20vw;
+}
+
+.coluna h3{
+    color: #000;
+    font-size: 36;
+    font-weight: bold;
+}
+
+.coluna li{
+    list-style: none;
+    color: #ACACAC;
+    font-size: 26;
+    /* font-weight:700; */
 }

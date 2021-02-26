@@ -1,15 +1,19 @@
+// import styles from '../styles/Home.module.css'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Link from 'next/link';
-import Footer from '../components/footer'
 import Image from 'next/image';
+
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 function Home(){
     return (
         <div>
-            <Head title='Yoomy' ></Head>
-            <Header/>
+            <Head  >
+                <title>Yoomy</title>
+            </Head>
             <body>
+                <Header/>
                 <FirstPart/>
                 <TopRestaurants/>
                 <HowItWorks/>
@@ -19,11 +23,44 @@ function Home(){
                 <BePartner/>
                 <MainPartners/>
                 <WhereWeAre/>
+                <Footer/>
             </body>
-            <Footer/>
         </div>
     )
 }
+
+// function Header(){
+    
+//     return(
+//         <div>
+//             <div>
+//                 <Image
+//                     src="/imagotipo.png"
+//                     alt="Yoomy"
+//                     width={200}
+//                     height={90}
+//                 />
+//                 <input placeholder='Pesquisar'></input>
+//             </div>
+//             <div>
+//                 <Link href='/sobre'>
+//                     <a>Restaurante</a>
+//                 </Link>
+//                 <Link href='/sobre'>
+//                     <a>Reserva</a>
+//                 </Link>
+//                 <Link href='/sobre'>
+//                     <a>Parceria</a>
+//                 </Link>
+//             </div>
+//             <div>
+//                 <Link href='/sobre'>
+//                     <a>Entrar</a>
+//                 </Link>
+//             </div>
+//         </div>
+//     )
+// }
 
 function FirstPart(){
     return(
@@ -33,8 +70,8 @@ function FirstPart(){
                     <h2>Aqui tem tudo para sua fome!</h2>
                     <h5>Baixe o app ou acesse sua conta</h5>
                     <div>
-                        <button>Baixe na Google Play</button>
-                        <button>Baixe na App store</button>
+                        <button >Baixe na Google Play</button>
+                        <button >Baixe na App store</button>
                     </div>
                     
                 </div> 
@@ -82,33 +119,7 @@ function TopRestaurants(){
     )
 }
 
-function Header(){
-    
-    return(
-        <div>
-            <div>
-                <img href='' alt='YOOMY'></img>
-                <input placeholder='Pesquisar'></input>
-            </div>
-            <div>
-                <Link href='/sobre'>
-                    <a>Restaurante</a>
-                </Link>
-                <Link href='/sobre'>
-                    <a>Reserva</a>
-                </Link>
-                <Link href='/sobre'>
-                    <a>Parceria</a>
-                </Link>
-            </div>
-            <div>
-                <Link href='/sobre'>
-                    <a>Entrar</a>
-                </Link>
-            </div>
-        </div>
-    )
-}
+
 
 function HowItWorks(){
     return(
@@ -186,7 +197,7 @@ function BePartner(){
         <div>
             <div>
                 <h2>Seja um restaurante parceiro</h2>
-                <p1></p1>
+                <p>aaaa</p>
                 <button>Saiba Mais</button>
             </div> 
             <div>Imagem</div> 

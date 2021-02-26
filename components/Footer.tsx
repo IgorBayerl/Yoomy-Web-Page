@@ -1,4 +1,4 @@
-import styles from '../styles/components/footer.module.css';
+import styles from '../styles/components/Footer.module.css';
 import Image from 'next/image';
 
 function Footer(){
@@ -9,7 +9,7 @@ function Footer(){
                     <ul>
                         <Image
                             src="/imagotipo.png"
-                            alt="Picture"
+                            alt="Yoomy"
                             width={200}
                             height={90}
                         />
