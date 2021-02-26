@@ -1,6 +1,4 @@
 
-
-
 .backgroundFooter {
     background-color: #FBF8F8;
     height: 300px
@@ -12,8 +10,6 @@
     flex-direction:row;
     justify-content:space-between
 }
-
-
 
 .footer{
     display:flex;
