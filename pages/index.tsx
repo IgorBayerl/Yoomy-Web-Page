@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Introduction from '../components/Introduction'
 
 function Home(){
     return (
@@ -14,7 +15,7 @@ function Home(){
             </Head>
             <body>
                 <Header/>
-                <FirstPart/>
+                <Introduction/>
                 <TopRestaurants/>
                 <HowItWorks/>
                 <InYourHand/>
@@ -29,61 +30,6 @@ function Home(){
     )
 }
 
-// function Header(){
-    
-//     return(
-//         <div>
-//             <div>
-//                 <Image
-//                     src="/imagotipo.png"
-//                     alt="Yoomy"
-//                     width={200}
-//                     height={90}
-//                 />
-//                 <input placeholder='Pesquisar'></input>
-//             </div>
-//             <div>
-//                 <Link href='/sobre'>
-//                     <a>Restaurante</a>
-//                 </Link>
-//                 <Link href='/sobre'>
-//                     <a>Reserva</a>
-//                 </Link>
-//                 <Link href='/sobre'>
-//                     <a>Parceria</a>
-//                 </Link>
-//             </div>
-//             <div>
-//                 <Link href='/sobre'>
-//                     <a>Entrar</a>
-//                 </Link>
-//             </div>
-//         </div>
-//     )
-// }
-
-function FirstPart(){
-    return(
-        <div>
-            <div>
-                <div>
-                    <h2>Aqui tem tudo para sua fome!</h2>
-                    <h5>Baixe o app ou acesse sua conta</h5>
-                    <div>
-                        <button >Baixe na Google Play</button>
-                        <button >Baixe na App store</button>
-                    </div>
-                    
-                </div> 
-                <div>Imagem</div>
-            </div>
-            <div>
-                <div>Imagem</div>
-            </div>
-             
-        </div>
-    )
-}
 
 function TopRestaurants(){
     return(
@@ -236,9 +182,18 @@ function WhereWeAre(){
             <div>
                 <h2>Onde estamos</h2>
                 <div>
-                    <input/>
-                    <input/>
-                    <input/>
+                    <select name="example1" id="ex1">
+                        <option value="aaa">aaa</option>
+                        <option value="vvv">vvv</option>
+                    </select>
+                    <select name="example2" id="ex2">
+                        <option value="aaa">aaa</option>
+                        <option value="vvv">vvv</option>
+                    </select>
+                    <select name="example2" id="ex2">
+                        <option value="aaa">aaa</option>
+                        <option value="vvv">vvv</option>
+                    </select>
                 </div>
             </div>
             <div>

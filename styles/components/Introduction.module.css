@@ -1,0 +1,39 @@
+
+.fundo{
+    background-color: #fbbc05;
+    display:flex;
+    position:absolute;
+    flex:1
+}
+
+.pratoDeComidaContainer{
+    /* height:33vw; */
+    width:35vw;
+    z-index: 1;
+    /* background-color:blue; */
+}
+.containerHorizontal{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    /* background-color: #dedede; */
+}
+.padronagem1{
+    position:absolute;
+    right: 0;
+    top: 300px;
+    width: 40vw;
+    z-index: 0;
+}
+.storeButtonsContainer{
+    display: flex;
+    flex-direction: column;
+}
+.buttonGooglePlay{
+    background-color:red;
+    /* height:500px; */
+}
+
+.buttonAppStore{
+    background-color:blue;
+}
