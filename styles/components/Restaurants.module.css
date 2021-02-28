@@ -1,0 +1,36 @@
+.container{
+    height:50vh;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.titleTextContainer{
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.titleText{
+    margin-top: 60px;
+    color:#fff;
+    font-size: 30px;
+}
+
+.listaDeCards{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 90vw;
+}
+
+.listaDeCards li{
+    list-style: none;
+    margin: 0px 0px 0px 0px
+}
+
+.card{
+    background-color:red;
+}

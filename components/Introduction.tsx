@@ -6,9 +6,9 @@ function Introduction(){
     return(
         <div className={styles.container}>
             <div className={styles.containerHorizontal}>
-                <div>
-                    <h2>Sua fome acaba aqui!</h2>
-                    <h5>Baixe o app ou acesse sua conta</h5>
+                <div className={styles.leftContentContainer}>
+                    <h2 className={styles.titleText}>Sua fome acaba aqui!</h2>
+                    <h5 className={styles.subText}>Baixe o app ou acesse sua conta</h5>
                     <div className={styles.storeButtonsContainer}>
                         <Link href='/sobre'>
                             <a className={styles.buttonGooglePlay}>
@@ -50,9 +50,16 @@ function Introduction(){
                     />
                 </div>
             </div>
-            <div>
-                <div>Imagem</div>
+            <div className={styles.pratoDeComidaquadradoContainer}>
+                <Image
+                    src="/Grupo_9775.png"
+                    alt="Yoomy"
+                    width={1355}
+                    height={727}
+                />
             </div>
+            <div className={styles.quadradoBranco}></div>
+            <div className={styles.fundo}></div>
              
         </div>
     )
