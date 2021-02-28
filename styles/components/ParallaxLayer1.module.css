@@ -1,0 +1,49 @@
+.container{
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    /* background-color:green; */
+}
+
+.containerPrato1{
+    display:flex;
+    width:100%;
+}
+
+.pratoDeComidaContainer{
+    /* height:33vw; */
+    position:absolute;
+    top: 180px;
+    right: 0;
+    width:35vw;
+    z-index: 1;
+    /* background-color:blue; */
+}
+
+.padronagem1{
+    /* background-color:red; */
+    position:absolute;
+    right: 0;
+    top: 300px;
+    width: 40vw;
+    z-index: 0;
+}
+
+
+.containerPrato2{
+    display:flex;
+    width:100%;
+}
+
+.pratoDeComidaContainer2{
+    /* height:33vw; */
+    position:absolute;
+    top: 30em;
+    left: -15em;
+    width:48em;
+    z-index: 1;
+    /* background-color:blue; */
+}

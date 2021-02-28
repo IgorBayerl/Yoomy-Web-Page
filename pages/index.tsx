@@ -1,99 +1,68 @@
-// import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 import Link from 'next/link';
 import Image from 'next/image';
+import React, { useState, useEffect } from 'react'
 
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Introduction from '../components/Introduction'
 import Restaurants from '../components/Restaurants'
+import ParallaxLayer1 from '../components/ParallaxLayer1'
+import ParallaxLayerFundo1 from '../components/ParallaxLayerFundo1'
+import HowItWorks from '../components/HowItWorks'
 
 function Home(){
+
+    const [offsetY , setOffsetY] = useState(0);
+    const handleScroll = () => setOffsetY(window.pageYOffset)
+
+    useEffect(()=>{
+        window.addEventListener('scroll', handleScroll)
+        
+        return () => window.removeEventListener('scroll', handleScroll)
+    },[] )
+
     return (
         <div>
             <Head  >
                 <title>Yoomy</title>
             </Head>
-            <body>
-                <Header/>
-                <Introduction/>
-                <Restaurants/>
-                <HowItWorks/>
-                <InYourHand/>
-                <Share/>
-                <Descounts/>
-                <BePartner/>
-                <MainPartners/>
-                <WhereWeAre/>
+            <body className={styles.body}>
+                <div className={styles.colorBackgroundOrange}></div>
+                <div 
+                    style={{transform:`translateY(${offsetY * -0.22}px)`}}
+                    className={styles.parallaxEffect1}
+                >
+                    <ParallaxLayer1/>
+                </div>
+                <div 
+                    style={{transform:`translateY(${offsetY * -0.1}px)`,zIndex: -1}}
+                    className={styles.parallaxEffectFundo1}
+                >
+                    <ParallaxLayerFundo1/>
+                </div>
+                <div className={styles.containerMaster}>
+                    <div className={styles.container}>
+                        <Header/>
+                        <Introduction/>
+                        <Restaurants/>
+                        <HowItWorks/>
+                        <InYourHand/>
+                        <Share/>
+                        <Descounts/>
+                        <BePartner/>
+                        <MainPartners/>
+                        <WhereWeAre/>
+                        
+                    </div>
+                </div>
                 <Footer/>
             </body>
         </div>
     )
 }
 
-
-function TopRestaurants(){
-    return(
-        <div>
-            <div>
-                <h2>
-                    Top Restaurants
-                </h2>
-            </div>
-            <ul>
-                <li>
-                    <img alt='Mc Donalds'/>
-                    <h2>Mc Donalds</h2>
-                </li>
-                <li>
-                    <img alt='Mc Donalds'/>
-                    <h2>Mc Donalds</h2>
-                </li>
-                <li>
-                    <img alt='Mc Donalds'/>
-                    <h2>Mc Donalds</h2>
-                </li>
-                <li>
-                    <img alt='Mc Donalds'/>
-                    <h2>Mc Donalds</h2>
-                </li>
-                <li>
-                    <img alt='Mc Donalds'/>
-                    <h2>Mc Donalds</h2>
-                </li>
-            </ul>
-        </div>
-    )
-}
-
-
-
-function HowItWorks(){
-    return(
-        <div>
-            <div>
-                <h1>Como funciona</h1>
-            </div>
-            <div>
-                <div>
-                    <img alt='baixe o app'/>
-                    <h3>Baixe o app</h3>
-                    <p>O aplicativo esta disponivel para ios e android</p>
-                </div>
-                <div>
-                    <img alt='Escolha sua mesa'/>
-                    <h3>Escolha sua mesa</h3>
-                    <p>Utilize o qr code para solicitar uma mesa</p>
-                </div>
-                <div>
-                    <img alt='Sem filas, sem espera'/>
-                    <h3>Sem filas, sem espera</h3>
-                    <p>Peca e paque sem espera e sem filas</p>
-                </div>
-            </div>
-        </div>
-    )
-}
 
 function InYourHand(){
     return(

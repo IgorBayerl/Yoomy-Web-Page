@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 function Restaurants(){
+    
+
     return(
         <div className={styles.container}>
             <div className={styles.titleTextContainer}>
@@ -12,24 +14,59 @@ function Restaurants(){
             </div>
             <ul className={styles.listaDeCards}>
                 <li className={styles.card}>
-                    <img alt='Mc Donalds'/>
-                    <h2>Mc Donalds</h2>
+                    <Image
+                        src="/mcdonalds-masthead.png"
+                        alt="Yoomy"
+                        width={153}
+                        height={112}
+                    />
+                    <h2 className={styles.restaurantTitle}>Mc Donalds</h2>
                 </li>
                 <li className={styles.card}>
-                    <img alt='Mc Donalds'/>
-                    <h2>Mc Donalds</h2>
+                    <Image
+                        src="/mcdonalds-masthead.png"
+                        alt="Yoomy"
+                        width={153}
+                        height={112}
+                        
+                    />
+                    <h2 className={styles.restaurantTitle}>Mc Donalds</h2>
                 </li>
                 <li className={styles.card}>
-                    <img alt='Mc Donalds'/>
-                    <h2>Mc Donalds</h2>
+                    <Image
+                        src="/mcdonalds-masthead.png"
+                        alt="Yoomy"
+                        width={153}
+                        height={112}
+                    />
+                    <h2 className={styles.restaurantTitle}>Mc Donalds</h2>
                 </li>
                 <li className={styles.card}>
-                    <img alt='Mc Donalds'/>
-                    <h2>Mc Donalds</h2>
+                    <Image
+                        src="/mcdonalds-masthead.png"
+                        alt="Yoomy"
+                        width={153}
+                        height={112}
+                    />
+                    <h2 className={styles.restaurantTitle}>Mc Donalds</h2>
                 </li>
                 <li className={styles.card}>
-                    <img alt='Mc Donalds'/>
-                    <h2>Mc Donalds</h2>
+                    <Image
+                        src="/mcdonalds-masthead.png"
+                        alt="Yoomy"
+                        width={153}
+                        height={112}
+                    />
+                    <h2 className={styles.restaurantTitle}>Mc Donalds</h2>
+                </li>
+                <li className={styles.card}>
+                    <Image
+                        src="/mcdonalds-masthead.png"
+                        alt="Yoomy"
+                        width={153}
+                        height={112}
+                    />
+                    <h2 className={styles.restaurantTitle}>Mc Donalds</h2>
                 </li>
             </ul>
         </div>

@@ -33,7 +33,7 @@ function Introduction(){
                     </div>
                     
                 </div> 
-                <div className={styles.pratoDeComidaContainer}>
+                {/* <div className={styles.pratoDeComidaContainer}>
                     <Image
                         src="/prato_com_comida.png"
                         alt="Yoomy"
@@ -48,18 +48,18 @@ function Introduction(){
                         width={1040}
                         height={442}
                     />
-                </div>
+                </div> */}
             </div>
-            <div className={styles.pratoDeComidaquadradoContainer}>
+            {/* <div className={styles.pratoDeComidaquadradoContainer}>
                 <Image
                     src="/Grupo_9775.png"
                     alt="Yoomy"
                     width={1355}
                     height={727}
                 />
-            </div>
-            <div className={styles.quadradoBranco}></div>
-            <div className={styles.fundo}></div>
+            </div> */}
+            {/* <div className={styles.quadradoBranco}></div> */}
+            {/* <div className={styles.fundo}></div> */}
              
         </div>
     )
