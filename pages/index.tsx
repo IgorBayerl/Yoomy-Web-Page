@@ -11,20 +11,37 @@ import Restaurants from '../components/Restaurants'
 import ParallaxLayer1 from '../components/ParallaxLayer1'
 import ParallaxLayerFundo1 from '../components/ParallaxLayerFundo1'
 import HowItWorks from '../components/HowItWorks'
+import InYourHand from '../components/InYourHand'
 
 function Home(){
 
     const [offsetY , setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.pageYOffset)
 
+    const [cssOption , setCssOption] = useState(0)
+
+    function detectaTamanhoDoDispositivo(){
+        if (screen.width < 640 || screen.height < 480) {
+            console.log('smartphone')
+            setCssOption(0)
+        } else if (screen.width < 1024 || screen.height < 768) {
+            console.log('tablet')
+            setCssOption(1)
+        } else {
+            console.log('pc')
+            setCssOption(2)
+        }
+    }
+
     useEffect(()=>{
-        window.addEventListener('scroll', handleScroll)
+        detectaTamanhoDoDispositivo()
         
+        window.addEventListener('scroll', handleScroll)
         return () => window.removeEventListener('scroll', handleScroll)
     },[] )
 
     return (
-        <div>
+        <div >
             <Head  >
                 <title>Yoomy</title>
             </Head>
@@ -37,7 +54,7 @@ function Home(){
                     <ParallaxLayer1/>
                 </div>
                 <div 
-                    style={{transform:`translateY(${offsetY * -0.1}px)`,zIndex: -1}}
+                    style={{transform:`translateY(${offsetY * 0}px)`,zIndex: -1}}
                     className={styles.parallaxEffectFundo1}
                 >
                     <ParallaxLayerFundo1/>
@@ -64,17 +81,17 @@ function Home(){
 }
 
 
-function InYourHand(){
-    return(
-        <div>
-            <div>
-                <h2>Tudo na palma da sua mao</h2>
-                <p>Texto</p>
-            </div>
-            <div>Imagem</div>
-        </div>
-    )
-}
+// function InYourHand(){
+//     return(
+//         <div>
+//             <div>
+//                 <h2>Tudo na palma da sua mao</h2>
+//                 <p>Texto</p>
+//             </div>
+//             <div>Imagem</div>
+//         </div>
+//     )
+// }
 
 function Share(){
     return(

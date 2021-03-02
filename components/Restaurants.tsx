@@ -22,7 +22,7 @@ function Restaurants(){
                     />
                     <h2 className={styles.restaurantTitle}>Mc Donalds</h2>
                 </li>
-                <li className={styles.card}>
+                {/* <li className={styles.card}>
                     <Image
                         src="/mcdonalds-masthead.png"
                         alt="Yoomy"
@@ -67,7 +67,7 @@ function Restaurants(){
                         height={112}
                     />
                     <h2 className={styles.restaurantTitle}>Mc Donalds</h2>
-                </li>
+                </li> */}
             </ul>
         </div>
     )

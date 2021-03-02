@@ -12,12 +12,6 @@
     display:flex;
     width:100%;
 }
-.area2{
-    display:flex;
-    width:100%;
-}
-
-
 .quadradoBranco1{
     z-index: 10;
     position:absolute;
@@ -29,14 +23,18 @@
     border-bottom-right-radius: 60px;
 }
 
+.area2{
+    display:flex;
+    width:100%;
+}
 .quadradoBranco2{
-    z-index: 10;
+    z-index: 20;
     position:absolute;
-    top: 170%;
+    top:69em;
     right: 0;
     background-color:#fff;
-    height:50%;
-    width:75.5%;
+    height:450px;
+    width:90vw;
     border-top-left-radius: 60px;
     border-bottom-left-radius: 60px;
 }

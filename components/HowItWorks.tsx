@@ -6,25 +6,46 @@ function HowItWorks(){
     
 
     return(
-        <div>
-            <div>
+        <div className={styles.container}>
+            <div className={styles.titleContainer}>
                 <h1>Como funciona</h1>
             </div>
-            <div>
-                <div>
-                    <img alt='baixe o app'/>
+            <div className={styles.iconsContainer}>
+                <div className={styles.item}>
+                    <div className={styles.iconContainer}>
+                        <Image
+                            src="/yoomy_download.png"
+                            alt="Download Yoomy APP"
+                            width={93}
+                            height={91}
+                        />
+                    </div>
                     <h3>Baixe o app</h3>
-                    <p>O aplicativo esta disponivel para ios e android</p>
+                    <p>O aplicativo esta disponivel para IOS e Android</p>
                 </div>
-                <div>
-                    <img alt='Escolha sua mesa'/>
+                <div className={styles.item}>
+                    <div className={styles.iconContainer}>
+                        <Image
+                            src="/yoomy_table.png"
+                            alt="Download Yoomy APP"
+                            width={80}
+                            height={102}
+                        />
+                    </div>
                     <h3>Escolha sua mesa</h3>
-                    <p>Utilize o qr code para solicitar uma mesa</p>
+                    <p>Utilize o qr code pra solicitar uma mesa, você também pode fazer reservas.</p>
                 </div>
-                <div>
-                    <img alt='Sem filas, sem espera'/>
+                <div className={styles.item}>
+                    <div className={styles.iconContainer}>
+                        <Image
+                            src="/yoomy_credit-card.png"
+                            alt="Download Yoomy APP"
+                            width={83}
+                            height={67}
+                        />
+                    </div>
                     <h3>Sem filas, sem espera</h3>
-                    <p>Peca e paque sem espera e sem filas</p>
+                    <p>As filas acabaram! Peça ou pague de forma fácil através do app</p>
                 </div>
             </div>
         </div>
