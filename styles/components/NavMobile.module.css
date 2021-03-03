@@ -2,17 +2,37 @@
     /* position: absolute;
     z-index: 1000; */
 }
-
 .topBar{
+    display: flex;
+    height:80px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.topBarContainer{
     position: fixed;
     z-index: 1000;
     width: 100%;
-    height:80px;
-    background-color: #fff;
+    /* height:80px; */
+    /* background-color: rgb(145, 123, 123); */
     display: flex;
-    max-height: 80px;
+    /* max-height: 80px; */
+    flex-direction: column;
 }
 
+/* DropDown Menu style */
+.dropDownMenu{
+    background-color: #FBBC05;
+    width: 100%;
+    height: 0px;
+    transition: 0.3s;
+    /* height: 80px; */
+}
+/* DropDown Menu animation */
+.teste{
+    background-color: red;
+}
+/* 
 .sideNavContainer{
     position: fixed;
     top:0;
@@ -21,16 +41,23 @@
     height: 100%;
     background: #FBBC05;
     transition: 0.3s;
-}
-
+} */
+/* 
 .menuButtonContainer{
     margin: 0 0 0 0;
     height: 80px;
     width: 100%;
-    /* background-color: blue; */
     display: flex;
     justify-content: flex-end;
     transition: 0.3s;
+} */
+
+.optionsContainerDropDown a{
+    /* background-color: green; */
+    text-align: center;
+    /* font-weight: bold; */
+    color: #fff;
+    vertical-align: middle;
 }
 
 .openMenuButton{
@@ -92,28 +119,51 @@
     align-items: center;
 }
 
+.optionsContainerDropDown{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    transition: 0.3s;
+    font-size: 0px;
+    /* background-color:red; */
+}
+
+.closeMenuArea{
+    height: 800px;
+    width: 100%;
+    /* background-color: grey; */
+}
+
+
+
+
+/* 
 .optionsContainer{
     display: flex;
     flex-direction: column;
     transition: 0.3s;
-}
+} */
 
-.optionsContainer a{
+
+/* .optionsContainer a{
     margin-top: 20px;
     height: 60px;
     background-color: green;
-    /* font-size: 20px; */
-}
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    vertical-align: middle;
+} */
 
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 760px){
     .container{
         /* background: #de2425; */
     }
 }
 
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 760px){
     .container{
         visibility:hidden;
     }

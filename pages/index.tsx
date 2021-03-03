@@ -21,15 +21,15 @@ function Home(){
     const [cssOption , setCssOption] = useState(0)
 
     function detectaTamanhoDoDispositivo(){
-        if (screen.width < 640 || screen.height < 480) {
+        if (screen.width < 760 || screen.height < 480) {
             console.log('smartphone')
             setCssOption(0)
-        } else if (screen.width < 1024 || screen.height < 768) {
-            console.log('tablet')
-            setCssOption(1)
+        // } else if (screen.width < 1024 || screen.height < 768) {
+        //     console.log('tablet')
+        //     setCssOption(1)
         } else {
             console.log('pc')
-            setCssOption(2)
+            setCssOption(-0.22)
         }
     }
 
@@ -48,7 +48,7 @@ function Home(){
             <body className={styles.body}>
                 <div className={styles.colorBackgroundOrange}></div>
                 <div 
-                    style={{transform:`translateY(${offsetY * -0.22}px)`}}
+                    style={{transform:`translateY(${offsetY * cssOption}px)`}}
                     className={styles.parallaxEffect1}
                 >
                     <ParallaxLayer1/>
