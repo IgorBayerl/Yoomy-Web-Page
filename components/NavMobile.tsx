@@ -25,7 +25,7 @@ function NavMobile(){
     function openNav() {
         document.getElementById("dropDownMenu").style.height = "300px";
         // document.getElementById("mySidenav").style.width = "450px";
-        // document.getElementById("menuIcon").style.transform = "rotate(90deg)";
+        document.getElementById("menuIcon").style.transform = "rotate(90deg)";
         // document.getElementById("closeXButton").style.transform = "rotate(180deg)";
         document.getElementById("optionListDiv").style.fontSize = "25px"
         document.getElementById("optionListDiv").style.height = "300px"
@@ -35,7 +35,7 @@ function NavMobile(){
     function closeNav() {
         document.getElementById("dropDownMenu").style.height = "0px";
         // document.getElementById("mySidenav").style.width = "0";
-        // document.getElementById("menuIcon").style.transform = "rotate(0deg)";
+        document.getElementById("menuIcon").style.transform = "rotate(0deg)";
         // document.getElementById("closeXButton").style.transform = "rotate(0deg)";
         document.getElementById("optionListDiv").style.fontSize = "0px"
         document.getElementById("optionListDiv").style.height = "0px"
