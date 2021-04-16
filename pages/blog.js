@@ -83,7 +83,7 @@ export default function Home() {
                   <a className="text-white font-bold bg-green-600 leading-loose rounded px-3 py-3">Vida e Hobbie</a>
                   <h2 className="mb-3 mt-3 text-4xl lg:text-5xl font-bold font-heading">
                     <span className="text-white">Pessoas são mais felizes com</span>
-                    <span className="text-green-600">yoomy</span>
+                    <span className="text-green-600"> yoomy</span>
                   </h2>
                   <p className="mb-6 text-white leading-loose">As pessoas que usam a yoomy encontram uma felicidade incrível, conseguem encontrar os restaurantes que melhor se encaixam</p>
                   <div><a className="inline-block mb-3 lg:mb-0 lg:mr-3 w-full lg:w-auto py-2 px-6 leading-loose bg-green-600  text-white font-semibold rounded-xl rounded-t-xl">Julia Almeida</a><a className="inline-block w-full lg:w-auto py-2 px-6 leading-loose font-semibold bg-white  rounded-xl rounded-t-xl text-green-600">27/03/2021</a></div>
@@ -104,8 +104,8 @@ export default function Home() {
             <div className="flex h-96 bg-gray-100 rounded-t-lg cursor-pointer"><img className="w-full h-full object-cover rounded-t-lg" src="https://static.shuffle.dev/uploads/files/fb/fbaf56534de36adf7161c70c61794f293b314223/young-pretty-woman-eating-pizza-at-pizza-bar.jpg" alt /></div>
             <div className="bg-gray-100 mb-12 rounded-b-lg cursor-pointer">
               <a className="ml-4 text-white font-bold bg-yellow-400 leading-loose rounded px-3 py-3">Vida e Hobbie</a>
-              <h2 className="pl-4 mb-2 mt-2 text-3xl font-bold font-heading">A vida é melhor com amigos e familiares</h2>
-              <p className="pl-4 mb-4 text-lg text-gray-500">As pessoas que usam a yoomy encontram uma felicidade incrível, conseguem encontrar os restaurantes que melhor...</p>
+              <h2 className="pl-4 mb-2 mt-2 text-3xl text-gray-500 font-bold font-heading">A vida é melhor com amigos e familiares</h2>
+              <p className="pl-4 mb-4 text-lg text-gray-400">As pessoas que usam a yoomy encontram uma felicidade incrível, conseguem encontrar os restaurantes que melhor...</p>
               <a className="pl-4 inline-block mb-3 lg:mb-0 w-full lg:w-auto py-2 leading-loose text-gray-400 font-semibold rounded-xl rounded-t-xl">Julia Almeida 27/03/2021</a>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function Home() {
                 <p className="mt-4">
                   <a className="text-white font-bold bg-yellow-400 leading-loose rounded px-2 py-2">Vida e Hobbie</a>
                 </p>
-                <p className="my-6 text-2xl leading-relaxed">Dividir a conta gera mais amizade</p>
+                <p className="my-6 text-2xl text-gray-500 font-bold leading-relaxed">Dividir a conta gera mais amizade</p>
                 <a className="mt-4 inline-block mb-3 lg:mb-0  w-full lg:w-auto py-2 leading-loose text-gray-400 font-semibold">Julia Almeida 27/03/2021</a>
               </div>
             </div>
@@ -126,7 +126,7 @@ export default function Home() {
                 <p className="mt-4">
                   <a className="text-white font-bold bg-yellow-400 leading-loose rounded px-2 py-2">Vida e Hobbie</a>
                 </p>
-                <p className="my-6 text-2xl leading-relaxed">Dividir a conta gera mais amizade</p>
+                <p className="my-6 text-2xl text-gray-500 font-bold leading-relaxed">Dividir a conta gera mais amizade</p>
                 <a className="mt-4 inline-block mb-3 lg:mb-0  w-full lg:w-auto py-2 leading-loose text-gray-400 font-semibold">Julia Almeida 27/03/2021</a>
               </div>
             </div>
@@ -135,8 +135,8 @@ export default function Home() {
             <div className="flex h-96 bg-gray-100 rounded-t-lg cursor-pointer"><img className="w-full h-full object-cover rounded-t-lg" src="https://static.shuffle.dev/uploads/files/fb/fbaf56534de36adf7161c70c61794f293b314223/young-pretty-woman-eating-pizza-at-pizza-bar.jpg" alt /></div>
             <div className="bg-gray-100 mb-12 rounded-b-lg cursor-pointer">
               <a className="ml-4 text-white font-bold bg-yellow-400 leading-loose rounded px-3 py-3">Vida e Hobbie</a>
-              <h2 className="pl-4 mb-2 mt-2 text-3xl font-bold font-heading">A vida é melhor com amigos e familiares</h2>
-              <p className="pl-4 mb-4 text-lg text-gray-500">As pessoas que usam a yoomy encontram uma felicidade incrível, conseguem encontrar os restaurantes que melhor...</p>
+              <h2 className="pl-4 mb-2 mt-2 text-3xl text-gray-500 font-bold font-heading">A vida é melhor com amigos e familiares</h2>
+              <p className="pl-4 mb-4 text-lg text-gray-400">As pessoas que usam a yoomy encontram uma felicidade incrível, conseguem encontrar os restaurantes que melhor...</p>
               <a className="pl-4 inline-block mb-3 lg:mb-0 w-full lg:w-auto py-2 leading-loose text-gray-400 font-semibold rounded-xl rounded-t-xl">Julia Almeida 27/03/2021</a>
             </div>
           </div>
@@ -144,8 +144,8 @@ export default function Home() {
             <div className="flex h-96 bg-gray-100 rounded-t-lg cursor-pointer"><img className="w-full h-full object-cover rounded-t-lg" src="https://static.shuffle.dev/uploads/files/fb/fbaf56534de36adf7161c70c61794f293b314223/young-pretty-woman-eating-pizza-at-pizza-bar.jpg" alt /></div>
             <div className="bg-gray-100 mb-12 rounded-b-lg cursor-pointer">
               <a className="ml-4 text-white font-bold bg-yellow-400 leading-loose rounded px-3 py-3">Vida e Hobbie</a>
-              <h2 className="pl-4 mb-2 mt-2 text-3xl font-bold font-heading">A vida é melhor com amigos e familiares</h2>
-              <p className="pl-4 mb-4 text-lg text-gray-500">As pessoas que usam a yoomy encontram uma felicidade incrível, conseguem encontrar os restaurantes que melhor...</p>
+              <h2 className="pl-4 mb-2 mt-2 text-3xl text-gray-500 font-bold font-heading">A vida é melhor com amigos e familiares</h2>
+              <p className="pl-4 mb-4 text-lg text-gray-400">As pessoas que usam a yoomy encontram uma felicidade incrível, conseguem encontrar os restaurantes que melhor...</p>
               <a className="pl-4 inline-block mb-3 lg:mb-0 w-full lg:w-auto py-2 leading-loose text-gray-400 font-semibold rounded-xl rounded-t-xl">Julia Almeida 27/03/2021</a>
             </div>
           </div>
@@ -162,8 +162,8 @@ export default function Home() {
             <div className="flex h-96 bg-gray-100 rounded-t-lg cursor-pointer"><img className="w-full h-full object-cover rounded-t-lg" src="https://static.shuffle.dev/uploads/files/fb/fbaf56534de36adf7161c70c61794f293b314223/young-pretty-woman-eating-pizza-at-pizza-bar.jpg" alt /></div>
             <div className="bg-gray-100 mb-12 rounded-b-lg cursor-pointer">
               <a className="ml-4 text-white font-bold bg-yellow-400 leading-loose rounded px-3 py-3">Vida e Hobbie</a>
-              <h2 className="pl-4 mb-2 mt-2 text-3xl font-bold font-heading">A vida é melhor com amigos e familiares</h2>
-              <p className="pl-4 mb-4 text-lg text-gray-500">As pessoas que usam a yoomy encontram uma felicidade incrível, conseguem encontrar os restaurantes que melhor...</p>
+              <h2 className="pl-4 mb-2 mt-2 text-3xl text-gray-500 font-bold font-heading">A vida é melhor com amigos e familiares</h2>
+              <p className="pl-4 mb-4 text-lg text-gray-400">As pessoas que usam a yoomy encontram uma felicidade incrível, conseguem encontrar os restaurantes que melhor...</p>
               <a className="pl-4 inline-block mb-3 lg:mb-0 w-full lg:w-auto py-2 leading-loose text-gray-400 font-semibold rounded-xl rounded-t-xl">Julia Almeida 27/03/2021</a>
             </div>
           </div>
@@ -173,39 +173,39 @@ export default function Home() {
                 <div className="w-40 bg-yellow-400 rounded">
                   <a className="text-white font-bold leading-loose px-2 py-2">Vida e Hobbie</a>
                 </div>
-                <p className="mt-2 text-1xl leading-relaxed">Dividir a conta gera mais amizade</p>
+                <p className="mt-2 text-1xl text-gray-500 leading-relaxed">Dividir a conta gera mais amizade</p>
               </div>
             </div>
-            <div className="mt-2 px-4 py-2 border rounded cursor-pointer">
+            <div className="mt-3 px-4 py-2 border rounded cursor-pointer">
               <div className="pt-2 block">
                 <div className="w-40 bg-yellow-400 rounded">
                   <a className="text-white font-bold leading-loose px-2 py-2">Saúde</a>
                 </div>
-                <p className="mt-2 text-1xl leading-relaxed">Evitar filas reduz dor nas costas e pode evitar falecimento</p>
+                <p className="mt-2 text-1xl text-gray-500 leading-relaxed">Evitar filas reduz dor nas costas e pode evitar falecimento</p>
               </div>
             </div>
-            <div className="mt-2 px-4 py-2 border rounded cursor-pointer">
+            <div className="mt-3 px-4 py-2 border rounded cursor-pointer">
               <div className="pt-2 block">
                 <div className="w-40 bg-yellow-400 rounded">
                   <a className="text-white font-bold leading-loose px-2 py-2">Gastronomia</a>
                 </div>
-                <p className="mt-2 text-1xl leading-relaxed">Novo restaurante 4 estrelas michelan é inaugurado na zona sul de são paulo</p>
+                <p className="mt-2 text-1xl text-gray-500 leading-relaxed">Novo restaurante 4 estrelas michelan é inaugurado na zona sul...</p>
               </div>
             </div>
-            <div className="mt-2 px-4 py-2 border rounded cursor-pointer">
+            <div className="mt-3 px-4 py-2 border rounded cursor-pointer">
               <div className="pt-2 block">
                 <div className="w-40 bg-yellow-400 rounded">
                   <a className="text-white font-bold leading-loose px-2 py-2">Viagem</a>
                 </div>
-                <p className="mt-2 text-1xl leading-relaxed">Italia é o pais mais premiado quando o assunto é culinaria</p>
+                <p className="mt-2 text-1xl text-gray-500 leading-relaxed">Italia é o pais mais premiado quando o assunto é culinaria</p>
               </div>
             </div>
-            <div className="mt-2 px-4 py-2 border rounded cursor-pointer">
+            <div className="mt-3 px-4 py-2 border rounded cursor-pointer">
               <div className="pt-2 block">
                 <div className="w-40 bg-yellow-400 rounded">
                   <a className="text-white font-bold leading-loose rounded px-2 py-2">Esporte</a>
                 </div>
-                <p className="mt-2 text-1xl leading-relaxed">Lutador de MMA ganhou 20kg para um campeonat, confira a sua dieta</p>
+                <p className="mt-2 text-1xl text-gray-500 leading-relaxed">Lutador de MMA ganhou 20kg para um campeonat, confira a sua dieta</p>
               </div>
             </div>
           </div>
@@ -214,7 +214,7 @@ export default function Home() {
               <div className="w-40 bg-yellow-400 rounded">
                 <a className="text-white font-bold leading-loose px-3 py-3">Vida e Hobbie</a>
               </div>
-              <h2 className="mb-2 mt-4 font-bold font-heading">Dividir a conta gera mais amizade</h2>
+              <h2 className="mb-2 mt-4 font-bold text-gray-500 font-heading">Dividir a conta gera mais amizade</h2>
             </div>
           </div>
           <div className="lg:hidden w-full lg:w-1/2 px-4 py-3 mb-12 mx-4 border rounded cursor-pointer">
@@ -222,7 +222,7 @@ export default function Home() {
               <div className="w-40 bg-yellow-400 rounded">
                 <a className="text-white font-bold leading-loose px-3 py-3">Vida e Hobbie</a>
               </div>
-              <h2 className="mb-2 mt-4 font-bold font-heading">Dividir a conta gera mais amizade</h2>
+              <h2 className="mb-2 mt-4 font-bold text-gray-500 font-heading">Dividir a conta gera mais amizade</h2>
             </div>
           </div>
           <div className="lg:hidden w-full lg:w-1/2 px-4 py-3 mb-12 mx-4 border rounded cursor-pointer">
@@ -230,7 +230,7 @@ export default function Home() {
               <div className="w-40 bg-yellow-400 rounded">
                 <a className="text-white font-bold leading-loose px-3 py-3">Vida e Hobbie</a>
               </div>
-              <h2 className="mb-2 mt-4 font-bold font-heading">Dividir a conta gera mais amizade</h2>
+              <h2 className="mb-2 mt-4 font-bold text-gray-500 font-heading">Dividir a conta gera mais amizade</h2>
             </div>
           </div>
         </div>
@@ -242,15 +242,15 @@ export default function Home() {
         <div className="lg:mt-8 container-fluid mx-auto px-4">
           <div className="flex flex-wrap -mx-4">
             <div className="hidden lg:block w-full lg:w-1/2 px-4 flex items-center justify-center">
-              <div className="relative" style={{zIndex: 0}}><img className="h-500 w-1000 object-cover" src="https://static.shuffle.dev/uploads/files/08/0879150e9ada17d4efef9aa095f20f794faa7de6/Grupo-10534.jpg" alt /></div>
+              <div className="relative" style={{zIndex: 0}}><img className="h-500 w-1000 object-cover justify-end" src="https://static.shuffle.dev/uploads/files/08/0879150e9ada17d4efef9aa095f20f794faa7de6/Grupo-10534.jpg" alt /></div>
             </div>
             <div className="lg:flex px-8 w-full lg:w-1/2 lg:pl-20 mb-12 lg:mb-0 items-center">
               <div className="w-full text-left">
                 <div className="max-w-lg mx-auto lg:mx-0 mt-8">
                   <h2 className="mb-3 text-2xl lg:text-4xl font-bold font-heading">
                     <span className="text-green-600">Receba o conteúdo</span>
-                    <span className="text-yellow-400">especial da yoomy</span>
-                    <span className="text-green-600">para você</span>
+                    <span className="text-yellow-400"> especial da yoomy</span>
+                    <span className="text-green-600"> para você</span>
                   </h2>
                   <input className="mt-6 w-full p-4 text-1xl bg-gray-50 outline-none rounded" type="text" placeholder="Digite seu e-mail" />
                   <div className="mt-6 lg:block"><a className="inline-block py-3 px-8 text-sm text-white font-bold leading-normal bg-yellow-400 hover:bg-yellow-300 rounded transition duration-200" href="#">Enviar</a></div>
@@ -263,6 +263,7 @@ export default function Home() {
     </section>
   </div>
 </>
+
 
   
   )
