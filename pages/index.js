@@ -2,13 +2,14 @@ import Head from 'next/head'
 
 // Components
 import BaseLayout from '../components/BaseLayout';
-import FormLogin from '../components/LoginPage/FormHome';
 import HowItWorks from '../components/MainPage/HowItWorks';
 import Informations from '../components/MainPage/Informations';
 import Advantages from '../components/MainPage/Advantages';
 import Customers from '../components/MainPage/Customers';
-import Reviews from '../components/MainPage/Reviews';
-import Questions from '../components/Questions';
+import ShareIt from '../components/MainPage/ShareIt';
+import AllInYourHand from '../components/MainPage/AllInYourHand';
+import Discounts from '../components/MainPage/Discounts';
+import Top from '../components/MainPage/Top';
 
 export default function Home() {
   return (
@@ -19,7 +20,14 @@ export default function Home() {
         <meta name="keywords" content="INSERIR AS KEYWORDS AQUI" />
       </Head>
       <BaseLayout>
-        <FormLogin/>
+        <Top/>
+        <Advantages/>
+        <HowItWorks/>
+        <AllInYourHand/>
+        <ShareIt/>
+        {/* <Discounts/> */}
+        <Informations/>
+        {/* <Discounts/> */}
       </BaseLayout>
     </div>
   )

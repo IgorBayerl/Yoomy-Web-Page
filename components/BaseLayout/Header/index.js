@@ -29,7 +29,7 @@ export default function Header() {
                 <Col xs={4} sm={3} md={4} lg="auto">
                   <Row className="align-items-center justify-content-end h-100">
                     <div className="d-none d-lg-block">
-                      <Link href="/restaurante">
+                      <Link href="/restaurantes">
                         <a className="text-decoration-none">
                           <Col className="color-primary text-size-md semi-bold link-header" xs="auto">
                             Restaurante
