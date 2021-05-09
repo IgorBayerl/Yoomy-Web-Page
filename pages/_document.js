@@ -1,6 +1,6 @@
 import Document from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
-import '../public/styles/tailwind.min.css'
+// import '../public/styles/tailwind.min.css'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx) {
