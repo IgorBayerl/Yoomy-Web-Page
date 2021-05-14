@@ -52,9 +52,10 @@ export const BoxContent = styled.div`
     transition: 0.3s ease;
   }
 
-  /* @media(max-width: 768px) {
-    padding: 3rem 0;
-  } */
+  @media(max-width: 768px) {
+    h1{
+      font-size: 17px;
+    }
 `;
 
 
