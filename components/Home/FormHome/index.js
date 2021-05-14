@@ -33,13 +33,28 @@ export default function FormHome() {
           .email('E-mail inválido')
           .required('E-mail é obrigatório'),
         restaurante: Yup.string().required('O restaurante é obrigatório'),
+        endereco: Yup.string().required('Endereço é obrigatório'),
       });
 
-      await schema.validate(data, {
+      const validationResult = await schema.validate(data, {
         abortEarly: false,
       });
 
-      reset();
+      if(typeof validationResult == 'object'){
+        console.log('aeeeee!! deu boa')
+
+        // const res = await fetch(`"ec2-18-228-12-184.sa-east-1.compute.amazonaws.com/webservice/new_register/user.php?action=register_user"`)
+        // const data = await res.json()
+
+        // if (!data) {
+        //   return {
+        //     notFound: true,
+        //   }
+        // }
+      }
+      console.log(validationResult)
+
+      // reset();
 
     } catch (err) {
       console.log(err);

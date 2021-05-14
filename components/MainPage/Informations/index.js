@@ -70,12 +70,12 @@ export default function Informations() {
 
                   <Col xs={12} lg={6}>
                     <Subtitle>
-                      <span className="color-light m-3">Descontos e promoções</span>
+                      <span className="color-light m-3">Seja um restaurante parceiro</span>
                     </Subtitle>
                     <Row>
                       <Col lg={10} xl={7}>
                         <p className="text-size-md m-3 semi-bold text-informations text-white pt-2 pt-lg-5">
-                        Descontos e promoções exclusivas para usuários. Entre hoje mesmo para ter a sua melhor experiência gastronômica pelo melhor preço.
+                        Traga uma nova experiencia para seus clientes e fique marcado para sempre em suas vidas pela qualidade e inovação.
                         </p>
                       </Col>
                     </Row>
