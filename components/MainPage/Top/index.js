@@ -42,7 +42,7 @@ export default function Top() {
                     <Row className="pl-0">
                       <Col lg={10} xl={7}>
                         <p className="text-size-md color-secondary semi-bold text-informations  pt-2 pt-lg-5">
-                        Baixe o app ou acesse sua conta.
+                        Disponível em breve para download.
                         </p>
                       </Col>
                     </Row>

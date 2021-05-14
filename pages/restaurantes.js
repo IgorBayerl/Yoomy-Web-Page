@@ -23,8 +23,8 @@ export default function Home() {
         <Highlights />
         <Informations />
         <Advantages />
-        <Customers />
-        <Reviews />
+        {/* <Customers /> */}
+        {/* <Reviews /> */}
         <Questions />
       </BaseLayout>
     </div>

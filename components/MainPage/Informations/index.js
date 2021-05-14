@@ -90,7 +90,7 @@ export default function Informations() {
                     </Row>
                   </Col>
               </Row>
-              <Row className="align-items-center pt-2 mt-lg-2">
+              {/* <Row className="align-items-center pt-2 mt-lg-2">
                 <Col xs={12} lg={4}>
                   <Subtitle>
                     <span className="color-secondary">Os principais restaurantes</span>
@@ -102,7 +102,7 @@ export default function Informations() {
                       </p>
                     </Col>
                   </Row>
-                  {/* <img src="/images/padronagem-promotions.png"alt="Padronagem" className="img-fluid mt-5 img-padronagem d-none d-lg-block" /> */}
+                  
                 </Col>
                 <Col className="pt-lg-5 mt-5" xs={12} lg={7}>
                   
@@ -141,8 +141,8 @@ export default function Informations() {
                     </Col>
                   </Slider>
                 </Col>
-              </Row>
-              <Row className="align-items-center pt-2 mt-lg-2">
+              </Row> */}
+              {/* <Row className="align-items-center pt-2 mt-lg-2">
                 <Col xs={12} lg={6}>
                   <Subtitle>
                     <span className="color-secondary">Onde estamos</span>
@@ -154,7 +154,7 @@ export default function Informations() {
                       </p>
                     </Col>
                   </Row>
-                  {/* <img src="/images/padronagem-promotions.png"alt="Padronagem" className="img-fluid mt-5 img-padronagem d-none d-lg-block" /> */}
+                  
                 </Col>
                 <Col className="pt-lg-5" xs={12} lg={6}>
                   
@@ -164,7 +164,7 @@ export default function Informations() {
                     </Col>
                   </Row>
                 </Col>
-              </Row>
+              </Row> */}
             </Col>
           </Row>
         </Col>

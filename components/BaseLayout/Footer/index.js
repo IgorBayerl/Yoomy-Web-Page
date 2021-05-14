@@ -45,17 +45,17 @@ export default function Footer() {
                       <p className="semi-bold subtitle-footer link-footer mb-1">Inicio</p>
                     </a>
                   </Link>
-                  <Link href="/">
+                  <Link href="/restaurantes">
                     <a className="text-decoration-none">
                       <p className="semi-bold subtitle-footer link-footer mb-1">Quero ser parceiro</p>
                     </a>
                   </Link>
-                  <Link href="/">
+                  <Link href="/in_development">
                     <a className="text-decoration-none">
                       <p className="semi-bold subtitle-footer link-footer mb-1">Quero ser entregador</p>
                     </a>
                   </Link>
-                  <Link href="/">
+                  <Link href="/in_development">
                     <a className="text-decoration-none">
                       <p className="semi-bold subtitle-footer link-footer mb-1">Suporte</p>
                     </a>
@@ -68,12 +68,12 @@ export default function Footer() {
                 </Col>
                 <Col className="pt-4 pt-sm-0" xs={{span: 12, order: 2}} sm={6} md={4} lg={{span: 3, order: 3}}>
                   <p className="text-size-md font-weight-bold title-footer">Políticas e termos</p>
-                  <Link href="/">
+                  <Link href="/in_development">
                     <a className="text-decoration-none">
                       <p className="semi-bold subtitle-footer link-footer mb-1">Termos e condições</p>
                     </a>
                   </Link>
-                  <Link href="/">
+                  <Link href="/in_development">
                     <a className="text-decoration-none">
                       <p className="semi-bold subtitle-footer link-footer mb-1">Política de processamento de dados</p>
                     </a>
@@ -82,34 +82,41 @@ export default function Footer() {
                 <Col className="pt-4 pt-md-0" xs={{span: 12, order: 3}} sm={6} md={4} lg={{span: 3, order: 4}}>
                   <p className="text-size-md font-weight-bold title-footer">Redes sociais</p>
                   <Row className="px-3">
-                    <Link href="/">
+                     <Link href="https://www.linkedin.com/company/yoomybr/">
+                      <a>
+                        <Col className="pr-3 pl-0 pb-3" xs="auto">
+                          <img src="/images/icon-linkedIn.png" alt="LinkedIn" title="LinkedIn" className="img-fluid social-icon" />
+                        </Col>
+                      </a>
+                    </Link>
+                    {/* <Link href="/">
                       <a>
                         <Col className="pr-3 pl-0 pb-3" xs="auto">
                           <img src="/images/icon-facebook.png" alt="Facebook" title="Facebook" className="img-fluid social-icon" />
                         </Col>
                       </a>
-                    </Link>
-                    <Link href="/">
+                    </Link> */}
+                    {/* <Link href="/">
                       <a>
                         <Col className="pr-3 pl-0 pb-3" xs="auto">
                           <img src="/images/icon-instagram.png" alt="Instagram" title="Instagram" className="img-fluid social-icon" />
                         </Col>
                       </a>
-                    </Link>
-                    <Link href="/">
+                    </Link> */}
+                    {/* <Link href="/">
                       <a>
                         <Col className="pr-3 pl-0 pb-3" xs="auto">
                           <img src="/images/icon-twitter.png" alt="Twitter" title="Twitter" className="img-fluid social-icon" />
                         </Col>
                       </a>
-                    </Link>
-                    <Link href="/">
+                    </Link> */}
+                    {/* <Link href="/">
                       <a>
                         <Col className="pr-3 pl-0 pb-3" xs="auto">
                           <img src="/images/icon-youtube.png" alt="Youtube" title="Youtube" className="img-fluid social-icon" />
                         </Col>
                       </a>
-                    </Link>
+                    </Link> */}
                   </Row>
                 </Col>
               </Row>

@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 // Components
 import BaseLayout from '../components/BaseLayout';
-import HowItWorks from '../components/MainPage/HowItWorks';
+import EmConstrucao from '../components/EmContrucao';
 import Informations from '../components/MainPage/Informations';
 import Advantages from '../components/MainPage/Advantages';
 import Customers from '../components/MainPage/Customers';
@@ -20,14 +20,7 @@ export default function Home() {
         <meta name="keywords" content="INSERIR AS KEYWORDS AQUI" />
       </Head>
       <BaseLayout>
-        <Top/>
-        {/* <Advantages/> */}
-        <HowItWorks/>
-        <AllInYourHand/>
-        <ShareIt/>
-        {/* <Discounts/> */}
-        <Informations/>
-        {/* <Discounts/> */}
+        <EmConstrucao/>
       </BaseLayout>
     </div>
   )

@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 // Components
 import BaseLayout from '../components/BaseLayout';
-import HowItWorks from '../components/MainPage/HowItWorks';
+import EmConstrucao from '../components/EmContrucao';
 import Informations from '../components/MainPage/Informations';
 import Advantages from '../components/MainPage/Advantages';
 import Customers from '../components/MainPage/Customers';
@@ -15,19 +15,12 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Yoomy - Home</title>
-        <meta name="description" content="INSERIR UMA DESCRIÇÃO AQUI" />
-        <meta name="keywords" content="INSERIR AS KEYWORDS AQUI" />
+        <title>Yoomy - Aplicativo</title>
+        <meta name="description" content="Confira as soluções Yoomy para levar o seu restaurante ao proximo nivel!" />
+        <meta name="keywords" content="aplicativo yoomy restaurants alimentos restaurantes comida aplicativo delivery cardapio menu" />
       </Head>
       <BaseLayout>
-        <Top/>
-        {/* <Advantages/> */}
-        <HowItWorks/>
-        <AllInYourHand/>
-        <ShareIt/>
-        {/* <Discounts/> */}
-        <Informations/>
-        {/* <Discounts/> */}
+        <EmConstrucao/>
       </BaseLayout>
     </div>
   )

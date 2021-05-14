@@ -112,7 +112,7 @@ export default function FormHome() {
                               placeholder="Digite sua Senha"
                             />
                           </Col>
-                          <span className="color-primary link-termo" onClick={() => alert(`Anota num papelzinho da proxima`)}>Esqueci minha senha!</span>
+                          <span className="color-primary link-termo" onClick={() => alert(`Um link de recuperação foi enviado para o seu email`)}>Esqueci minha senha!</span>
                         </Row>
 
                         <Row className="justify-content-end align-items-center pt-4">

@@ -15,6 +15,7 @@ export default class MyApp extends App {
         <link rel="stylesheet" type="text/css" href="/styles/rc-select.css" />
         <link rel="stylesheet" type="text/css" href="/styles/slick.mim.css" />
         <link rel="stylesheet" type="text/css" href="/styles/slick-theme.mim.css" />
+        <meta name="google-site-verification" content="rL0WQyAInIZEBhPV5C40ssChKzgnRDx3heD93UtoJfs" />
       </Head>
       <Component {...pageProps} />
       </>
