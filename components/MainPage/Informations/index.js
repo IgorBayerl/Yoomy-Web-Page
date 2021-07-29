@@ -75,7 +75,7 @@ export default function Informations() {
                     <Row>
                       <Col lg={10} xl={7}>
                         <p className="text-size-md m-3 semi-bold text-informations text-white pt-2 pt-lg-5">
-                        Traga uma nova experiencia para seus clientes e fique marcado para sempre em suas vidas pela qualidade e inovação.
+                        Traga uma nova experiência para seus clientes e fique marcado para sempre em suas vidas pela qualidade e inovação.
                         </p>
                       </Col>
                     </Row>
