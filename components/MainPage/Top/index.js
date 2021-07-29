@@ -2,6 +2,7 @@ import React from 'react';
 import {Col, Row, Button} from 'react-bootstrap';
 import Slider from "react-slick";
 import Link from 'next/link';
+import Image from 'next/image'
 
 // Components
 import Title from '../Title';
@@ -49,15 +50,31 @@ export default function Top() {
                     <StoreLinkButtonsContainer className="">
                       
                       <Link href="/">
-                        <a>
-                          <img  src="/images/google-play.png" alt="Google play" title="Google play" className="img-fluid mr-3 mt-2 mb-2 img-footer" />
+                        <a className="mr-3 mt-2 mb-2 ">
+                          {/* <img  src="/images/google-play.png" alt="Google play" title="Google play" className="img-fluid mr-3 mt-2 mb-2 img-footer" /> */}
+                          <Image
+                            // className="img-fluid mr-3 mt-2 mb-2 img-footer"
+                            src="/images/google-play.png"
+                            title="Google play"
+                            alt="Google play"
+                            width={393}
+                            height={117}
+                          />
                         </a>
                       </Link>
                       
                       
                       <Link className="m-3" href="/">
-                        <a>
-                            <img src="/images/app-store.png" alt="App store" title="App store" className="img-fluid ml-3 mr-3 mt-2 mb-2 img-footer" />
+                        <a className="mr-3 mt-2 mb-2 ">
+                            {/* <img src="/images/app-store.png" alt="App store" title="App store" className="img-fluid ml-3 mr-3 mt-2 mb-2 img-footer" /> */}
+                          <Image
+                          
+                          src="/images/app-store.png"
+                          title="App store"
+                          alt="App store"
+                          width={395}
+                          height={120}
+                          />
                         </a>
                       </Link>
                       
@@ -67,9 +84,17 @@ export default function Top() {
                   <ImgContainerLeft xs={12} lg={6} className="">
                     <img src="/images/dish-square-top.png" alt="Prato" className="" />
                   </ImgContainerLeft>
-                </Col>
+                </Col >
                 
-                <Col xs={12} lg={6} className="d-none d-xl-block d-flex">
+                <Col xs={12} lg={6} className="d-none d-xl-block  d-flex">
+                  {/* <Image
+                    className="d-none d-xl-block img-fluid "
+                    src="/images/img-dish.png"
+                    title="Yoomy é gratuito para usar"
+                    alt="Yoomy é gratuito para usar"
+                    width={804}
+                    height={693}
+                  /> */}
                   <img src="/images/img-dish.png" alt="Gratuito" className="d-none d-xl-block img-fluid mb-5" />
                 </Col>
                 

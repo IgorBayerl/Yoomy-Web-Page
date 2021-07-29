@@ -70,7 +70,7 @@ export default function Informations() {
 
                   <Col xs={12} lg={6}>
                     <Subtitle>
-                      <span className="color-light m-3">Seja um restaurante parceiro</span>
+                      <p className="color-light m-3">Seja um restaurante parceiro</p>
                     </Subtitle>
                     <Row>
                       <Col lg={10} xl={7}>

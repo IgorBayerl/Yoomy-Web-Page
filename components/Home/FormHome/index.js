@@ -22,6 +22,8 @@ export default function FormHome() {
   const [termos, setTermos] = useState(false);
   const [showTermos, setShowTermos] = useState(false);
 
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+
   async function handleSubmit(data, { reset }) {
     try {
       formRef.current.setErrors({});
@@ -43,16 +45,41 @@ export default function FormHome() {
       if(typeof validationResult == 'object'){
         console.log('aeeeee!! deu boa')
 
-        // const res = await fetch(`"ec2-18-228-12-184.sa-east-1.compute.amazonaws.com/webservice/new_register/user.php?action=register_user"`)
-        // const data = await res.json()
+        /////////////////////////
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+        
+        var urlencoded = new URLSearchParams();
+        urlencoded.append("email", data.email);
+        urlencoded.append("fullName", data.nome);
+        urlencoded.append("phoneNumber", data.telefone);
+        urlencoded.append("restaurantName", data.restaurante);
+        urlencoded.append("restaurantCity", data.endereco);
+        
 
-        // if (!data) {
-        //   return {
-        //     notFound: true,
-        //   }
-        // }
+        var requestOptions = {
+          method: 'POST',
+          headers: myHeaders,
+          body: urlencoded,
+          redirect: 'follow'
+        };
+
+        const response = await fetch("https://backendsite.yoomy.com.br/webservice/new_register/user.php?action=register_user", requestOptions)
+          .then(response => response.text())
+          // .then(result => console.log(result))
+          // .then(result => setFormStatus(result))
+          .catch(error => console.log('error', error));
+
+        // console.log(JSON.stringify(response))
+        const stringResponse = response.toString()
+        // const responsedata = JSON.parse(response.data)
+        console.log(JSON.parse(stringResponse))
+        if(JSON.parse(stringResponse).success == true){
+          setShowSuccessMessage(true)
+        }
+        //////////////////
       }
-      console.log(validationResult)
+      // console.log(validationResult)
 
       // reset();
 
@@ -179,7 +206,7 @@ export default function FormHome() {
                               placeholder="Cidade"
                             />
                           </Col>
-                          <Col xs={12} lg={6} className="py-2 px-0 pr-lg-2">
+                          {/* <Col xs={12} lg={6} className="py-2 px-0 pr-lg-2">
                             <Select
                               className="semi-bold"
                               borderTel
@@ -224,7 +251,7 @@ export default function FormHome() {
                               ]}
                             >
                             </Select>
-                          </Col>
+                          </Col> */}
                           <Col xs={12} className="py-2 px-0">
                             <CheckBox name="termos" 
                               onClick={(evt) => setTermos(evt.target.checked)}
@@ -529,14 +556,24 @@ export default function FormHome() {
 
               </p>
               
+            </div>
+          </Modal.Body>
+        </Modal>
 
 
-              
-              
-
-
-
-              
+        <Modal show={showSuccessMessage} onHide={setShowSuccessMessage} size="xl" centered>
+          <Col className="close-modal position-relative">
+            <MdClose onClick={() => setShowSuccessMessage(false)} size={25} />
+          </Col>
+          <Modal.Body>
+            <div className="pt-4 p-sm-3 p-md-5">
+              <h2 className="text-center px-4 px-sm-0 mb-4 color-dark">
+                Sucesso
+              </h2>
+              <hr />
+              <h3 className=" px-4 px-sm-0 mb-2 color-primary text-center ">
+                Em breve a Yoomy entrará em contato com você.
+              </h3>
             </div>
           </Modal.Body>
         </Modal>
