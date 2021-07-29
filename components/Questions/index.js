@@ -61,7 +61,7 @@ export default function Questions() {
                         <Accordion.Collapse eventKey="1">
                           <Card.Body>
                           No momento não estamos trabalhando com delivery, somente atendimento presencial. 
-                          Em breve estaremos ampliando nossas funcionalidades e oferecendo delivery para todos os estabelecimentos parceiros
+                          Em breve estaremos ampliando nossas funcionalidades e oferecendo delivery para todos os estabelecimentos parceiros.
                           </Card.Body>
                         </Accordion.Collapse>
                       </Card>
@@ -80,7 +80,7 @@ export default function Questions() {
                         </Card.Header>
                         <Accordion.Collapse eventKey="3">
                           <Card.Body>
-                            O cliente pode sim optar por realizar o pagamento de sua conta utilizando cartão de crédito, débito ou até mesmo pix através do aplicativo Yoomy. 
+                            O cliente pode sim optar por realizar o pagamento de sua conta utilizando cartão de crédito, débito ou até mesmo pix através do aplicativo Yoomy.
                           </Card.Body>
                         </Accordion.Collapse>
                       </Card>
@@ -101,7 +101,7 @@ export default function Questions() {
                           <Card.Body>
                           Se o restaurante parceiro Yoomy estiver buscando por uma forma de alavancar suas vendas e trazer novos clientes para seu estabelecimento, 
                           ele pode fazer isso através de nossa plataforma. Ao anunciar promoções, aparecer na categoria "melhores restaurantes" ou habilitar recomendação por proximidade, 
-                          o restaurante ganha maior visibilidade em nosso aplicativo. Os custos variam dependendo do serviço de marketing utilizado e o estabelecimento só paga se houver resultados
+                          o restaurante ganha maior visibilidade em nosso aplicativo. Os custos variam dependendo do serviço de marketing utilizado e o estabelecimento só paga se houver resultados.
                           </Card.Body>
                         </Accordion.Collapse>
                       </Card>
