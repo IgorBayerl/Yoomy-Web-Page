@@ -64,7 +64,7 @@ export default function FormHome() {
           redirect: 'follow'
         };
 
-        const response = await fetch("https://backendsite.yoomy.com.br/webservice/new_register/user.php?action=register_user", requestOptions)
+        const response = await fetch("https://appbackend.yoomy.com.br/yoomy-site-backend/webservice/new_register/user.php?action=register_user", requestOptions)
           .then(response => response.text())
           // .then(result => console.log(result))
           // .then(result => setFormStatus(result))
